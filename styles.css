@@ -11,6 +11,7 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #EBE6F5;
     justify-content: space-around;
+
 }
 
 .navigation ul{
@@ -19,13 +20,12 @@
 }
 
 .navigation u l, 
-li,
-a{
+li {
     color: #EBE6F5;
     text-decoration: none;
     list-style: none;
     text-transform: uppercase;
-    margin-top: 15px;
+    margin-top: 30px;
 }    
 
 .logoimage{
@@ -41,9 +41,81 @@ a{
     background: #407942;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #ebe6f5;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .banner-items{
-    display: flex 1
+    display: flex 1;
+}
+
+.banner-main {
+    font-size: 50;
+    font-weight: 900;
+}
+
+.banner-secondary {
+    font-size: 25;
     ;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .cta {
+    position: relative;
+    margin-top: 15px;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+  }
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #f1c4df;
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+    opacity: 60%;
+  }
+  .cta span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  .cta:hover:before {
+    width: 100%;
+    background: #EF38A7;
+  }
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  .cta:active {
+    transform: scale(0.96);
+  }
+.heroimage {
+    justify-items: end;
+    margin-block-end: 50px;
+}
+
