@@ -1,0 +1,122 @@
+
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrowU</title>
+        
+<link rel="stylesheet" href="./GrowU_files/styles.css"></head>
+<body data-new-gr-c-s-check-loaded="14.1079.0" data-gr-ext-installed="">
+
+    <!--NAVIGATION-->
+    <header>
+        <nav class="navigation">
+            <img class="logoimage" src="./GrowU_files/logo.png" alt="logoimage">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html#">header one</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#">header two</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#">header three</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <!--ABOUT/BANNER-->
+     <div class="banner-container">
+        <div class="banner-items">
+            <h1 class="banner-main">Let us help U Grow!</h1>
+            <p class="banner-secondary">
+                We offer the help to progress with your health anf fitness journey, whilst being there for the days when you just don't feel upto it
+            </p>
+            <button class="signup-btn">Sign Up</button>
+
+        </div>  
+            <img src="./GrowU_files/heroimage.jpg" alt="seated yoga pose">
+        </div>   
+        
+    <!--INFORMATION SECTION-->   
+    <main>
+        <h2>What we offer</h2>
+        <div class="card-container secondary">
+            <div class="card">
+                <div class="square"></div>
+                <p>Step 1</p>
+            </div>
+
+            <div class="card">
+                <div class="square"></div>
+                <p>Step 2</p>
+            </div>
+
+            <div class="card">
+                <div class="square"></div>
+                <p>Step 3</p>
+            </div>
+
+            <div class="card">
+                <div class="square"></div>
+                <p>Step 4</p>
+            </div>
+        </div>
+    </main> 
+
+    <div class="sign-up">
+        <div class="container">
+            <div class="left">
+                <strong>Call to action! It's time!</strong>
+                <p class="secondary">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div class="right">
+                <button class="secondary">Sign up</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Copyright © Andrew Barber 2021
+    </footer>
+
+
+
+    
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
